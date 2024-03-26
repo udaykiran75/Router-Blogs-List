@@ -1,0 +1,29 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-profile {
+  height: 100px;
+  width: 100px;
+}
+.heading {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.para {
+  font-size: 20px;
+}
+@media screen and (max-width:576px){
+    .user-profile{
+        height: 60px;
+        width: 60px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .para{
+        font-size: 16px;
+    }
+}
